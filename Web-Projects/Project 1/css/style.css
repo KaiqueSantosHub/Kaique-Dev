@@ -1,0 +1,704 @@
+@import url("https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+.projetos {
+   scroll-margin-top: 100px;
+}
+
+.link {
+   scroll-padding-bottom: 200px;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  border-bottom: 0.1px solid;
+  border-color: rgba(145, 142, 142, 0.301);
+  justify-content: space-between;
+  height: auto;
+  background-color: white;
+}
+
+.titulo-nome {
+  margin-left: 4%;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+li a {
+  text-decoration: none;
+  text-decoration-line: none;
+  font-family: "Momo Trust Display", sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+li a:hover {
+  color: #3b66ff;
+}
+
+li {
+  display: flex;
+  gap: 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 6%;
+}
+
+.principal {
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  gap: 30%;
+}
+
+.photo {
+  aspect-ratio: 1 / 1;
+  border: 3px solid;
+  border-radius: 50%;
+  width: 225px;
+  max-width: 40vw;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-left: 7%;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 80px;
+}
+
+.info {
+  margin-top: 25px;
+}
+
+.principal .info h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2%;
+}
+
+.info p {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(92, 89, 89);
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn1 {
+  padding: 4%;
+  width: 50%;
+  border: 0px solid;
+  background-color: #3b66ff;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: "Momo Trust Display", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn2 {
+  padding: 4%;
+  width: 50%;
+  border: 2px solid #3b66ff;
+  background-color: transparent;
+  color: rgb(31, 111, 182);
+  font-size: 15px;
+  font-family: "Momo Trust Display", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn1:hover {
+  background-color: #3b65ffe0;
+}
+
+.btn2:hover {
+  background-color: #3b66ff;
+  color: aliceblue;
+}
+
+.sobre-mim {
+  width: 100%;
+  height: auto;
+  background-color: rgba(172, 168, 168, 0.192);
+  margin-top: 9%;
+  padding-bottom: 7%;
+}
+
+.texto-informativo {
+  max-width: 50vw;
+  margin-left: 6%;
+  padding-top: 5%;
+}
+
+.texto-informativo h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.texto-informativo p {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(54, 51, 51, 0.863);
+}
+
+.qualidades {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.qualidades div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.qualidades div p {
+  text-align: center;
+  font-family: "Momo Trust Display", sans-serif;
+  font-size: 15px;
+}
+
+.quadrado {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quadrado svg {
+  width: 35px;
+  height: 35px;
+  color: #3b66ff;
+}
+
+.projetos {
+  margin-left: 6%;
+  margin-top: 7%;
+}
+
+.contener-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.projetos h1 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+}
+
+.retangulo {
+  width: 45%;
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.img-projeto {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.img-projeto img {
+  width: 100%;
+  height: 100%;
+  border: 0px solid;
+  object-fit: cover;
+}
+
+.texto-retangulo {
+  padding: 15px;
+  margin-left: 15px;
+}
+
+.texto-retangulo p {
+  margin-bottom: 25px;
+  margin-right: 20px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(92, 89, 89);
+  font-size: 15px;
+}
+
+.texto-retangulo h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-ver-mais {
+  padding: 2%;
+  width: 50%;
+  border: 1px solid #3b66ff;
+  background-color: transparent;
+  color: rgb(31, 111, 182);
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-ver-mais:hover {
+  background-color: #3b66ff;
+  color: aliceblue;
+  transition: 0.2s;
+}
+
+.curso {
+  width: 100%;
+  height: auto;
+  background-color: rgba(172, 168, 168, 0.192);
+  margin-top: 9%;
+  padding-bottom: 7%;
+  padding-top: 5%;
+}
+
+.curso h1 {
+   margin-left: 6%;
+   font-family: "Roboto", sans-serif;
+   margin-bottom: 40px;
+}
+
+.cards-curso {
+   margin-left: 6%;
+   margin-right: 5%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+
+
+.curso-card {
+  width: 27%;
+  height: 145px;
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 20px;
+}
+
+.curso-card h3 {
+   font-family: "Momo Trust Display", sans-serif;
+   font-size: 15px;
+}
+
+.unidade {
+   color: rgb(65, 62, 62);
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.linha {
+   margin-top: 15px;
+   width: 50px;
+   height: 5px;
+   background-color: #3b66ff;
+}
+
+.ano {
+   color: #3b65ff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.link h2 {
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   margin-top: 10%;
+   font-size: 30px;
+}
+
+.links-icones {
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+
+.circulo {
+   width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 60px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo:hover {
+   background-color: #38a5fd;
+   transition: 0.3s;
+}
+
+.link {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.circulo svg {
+   width: 27px;
+  height: 27px;
+
+}
+
+.circulo:hover svg {
+   color: white;
+}
+
+.link-circulo {
+   text-decoration: none;
+   color: black;
+}
+
+.contato {
+  width: 100%;
+  height: auto;
+  background-color: rgba(172, 168, 168, 0.192);
+  margin-top: 9%;
+  padding-bottom: 7%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0%;
+  
+}
+
+.contato h1 {
+   font-family: "Roboto", sans-serif;
+}
+
+.grato {
+    color: rgb(65, 62, 62);
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.zap {
+   margin-top: 15px;
+ padding: 13px;
+  width: 25%;
+  border: 0px solid;
+  background-color: #00C853   ;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.zap:hover {
+   background-color: #0dad50;
+}
+
+.email {
+   margin-top: 25px;
+   color: rgb(65, 62, 62);
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.email a {
+text-decoration: none;
+font-family: "Roboto", sans-serif ;
+}
+
+footer {
+   margin-top: 0%;
+   padding-top: 0%;
+   background-color: black;
+   width: 100%;
+   height: 100px;
+}
+
+footer h4 {
+   color: aliceblue;
+   font-family: "Ubuntu", sans-serif;
+   margin-left: 30px;
+   font-size: 20px;
+   margin-top: 0px;
+   padding: 30px;
+   margin-bottom: 0px;
+}
+
+.diretrizes {
+   display: flex;
+   justify-content: center;
+   padding-top: 0px;
+   background-color: black;
+}
+
+.diretrizes p {
+   color: rgb(168, 162, 162);
+   font-family: "Ubuntu", sans-serif;
+   font-size: 13px;
+}
+
+.links2 {
+   background-color: black;
+   display: flex;
+   justify-content: flex-end;
+   gap: 15px;
+   padding-right: 25px;
+   
+}
+
+.links2 div {
+   width: 20px;
+   height: 20px;
+   border: 1px solid white;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.links2 svg {
+ color: white;
+}
+
+.links2 div:hover {
+   background-color: white;
+}
+
+.links2 div:hover svg {
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= */
+/*     RESPONSIVO (CHATGPT)  */
+/* ========================= */
+
+/* ========================= */
+/*        TABLETS            */
+/* ========================= */
+@media (max-width: 1024px) {
+  .principal {
+    gap: 10%;
+    padding-top: 15%;
+  }
+
+  .principal .info h1 {
+    font-size: 42px;
+  }
+
+  .photo {
+    width: 200px;
+  }
+}
+
+/* ========================= */
+/*        MOBILE             */
+/* ========================= */
+/* ========================= */
+/*        MOBILE             */
+/* ========================= */
+/* ========================= */
+/*        MOBILE             */
+/* ========================= */
+@media (max-width: 768px) {
+
+  /* ===== HEADER ===== */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .titulo-nome {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  /* ===== MENU HAMBURGUER ===== */
+  .menu-hamburguer {
+   padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .menu-hamburguer span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+  }
+
+  /* ===== NAV ===== */
+  nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  nav ul {
+    width: 100%;
+  }
+
+  nav li {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  nav li.ativo {
+    display: flex;
+  }
+
+  /* ===== PRINCIPAL ===== */
+  .principal {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 140px;
+    text-align: center;
+  }
+
+  .photo {
+    margin: 0;
+    width: 180px;
+  }
+
+  .principal .info h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .info p {
+    font-size: 15px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 100%;
+    max-width: 260px;
+    padding: 12px;
+  }
+
+  /* ===== SOBRE ===== */
+  .texto-informativo {
+    max-width: 90%;
+    margin-left: 5%;
+  }
+
+  .qualidades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  /* ===== PROJETOS ===== */
+  .projetos {
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  .contener-cards {
+    justify-content: center;
+  }
+
+  .retangulo {
+    width: 100%;
+  }
+
+  /* ===== CURSOS ===== */
+  .curso-card {
+    width: 100%;
+  }
+
+  /* ===== LINKS ===== */
+  .links-icones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    justify-items: center;
+  }
+
+  /* ===== CONTATO ===== */
+  .contato p {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .zap {
+    width: 80%;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  footer h4 {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .links2 {
+    justify-content: center;
+    padding-top: 10px;
+  }
+}
+
+
+
+/* ========================= */
+/*     RESPONSIVO (CHATGPT)  */
+/* ========================= */
