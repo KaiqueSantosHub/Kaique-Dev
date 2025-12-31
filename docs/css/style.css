@@ -696,17 +696,7 @@ footer h4 {
     padding-top: 10px;
   }
 
-  @media (max-width: 480px) {
 
-  .diretrizes p {
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: center;
-    max-width: 90%;
-    margin: 10px auto;
-  }
-
-}
 
 }
 
